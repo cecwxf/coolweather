@@ -1,10 +1,11 @@
 package android.cooweather.com.coolweather.db;
+import org.litepal.crud.DataSupport;
 
 /**
  * Created by cecwxf on 18-2-6.
  */
 
-public class Country extends DataSupport {
+public class Country extends DataSupport{
 
     private int id;
     private String countryName;
