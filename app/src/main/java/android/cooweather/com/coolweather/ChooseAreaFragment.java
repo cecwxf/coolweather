@@ -118,7 +118,7 @@ public class ChooseAreaFragment extends Fragment {
             mListener.onFragmentInteraction(uri);
         }
     }
-
+/*
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
@@ -135,7 +135,7 @@ public class ChooseAreaFragment extends Fragment {
         super.onDetach();
         mListener = null;
     }
-
+*/
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
