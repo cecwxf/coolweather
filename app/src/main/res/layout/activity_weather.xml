@@ -6,11 +6,17 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
     tools:context="android.cooweather.com.coolweather.WeatherActivity">
+
     <ImageView
         android:id="@+id/bing_pic_img"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <ScrollView
         android:id="@+id/weather_layout"
         android:layout_width="match_parent"
@@ -29,4 +35,5 @@
             <include layout="@layout/suggestion"/>
         </LinearLayout>
     </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
 </FrameLayout>
